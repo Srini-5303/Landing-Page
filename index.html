@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header class="header">
+        <a href="#home" class="logo">Srinivasan <span>Raghavan</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Srini</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+
+            <p>
+                NEU student pursuing a Master of Science in Artificial Intelligence. Possesses a passion for the field, combining technical expertise with creative thinking.
+                Recognized for efficient coding skills and eager to leverage them to gain further knowledge and contribute to the advancement of Artificial Intelligence and
+                Machine Learning.
+            </p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/srinivasan-profile/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Srini-5303"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="https://drive.google.com/drive/folders/1mx4GZfjQoJTj1VOPzXdQFOlOrtZ2QIEp" class="btn">CV</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+            <div class="home-img">
+                <img src="portfolio_image.jpg" alt="">
+            </div>
+
+        
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-content">
+                        <h3>Secondary Education (CBSE - 10th std), DAV School </h3>
+                        <p>
+                            Percentage - 94.4%
+                        </p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>Senior Secondary Education (CBSE - 12th std), DAV School</h3>
+                        <p>
+                            Secured 480/500 in 12th std. <br>
+                            Top Ranker in Science Group, 3rd Highest Ranker in School
+                        </p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>B.Tech, IT, SSN College of Engineering</h3>
+                        <p>
+                            CGPA - 8.56<br>
+                            Passed with Distiction
+                        </p>
+                    </div>
+                
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>MS in Artificial Intelligence, Northeastern University</h3>
+                        <p>
+                            -
+                        </p>
+                    </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4> Catalyzing domestic waste management - A DL and IoT enabled
+                        Smart Bin</h4>
+                    <p> Created a product prototype that segregates waste into bio and nonbiodegradable using a ResNet model and IoT devices 
+                        such as Raspberry Pi, Infrared Sensor, Ultrasonic Sensor, Servo Motor, and a webcam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4> Facial Emotion Recognition to aid Psychotherapist </h4>
+                    <p> Created a human emotion detection system that utilizes
+                        ML models like VGG16 and Fast R-CNN to recognize and
+                        classify human emotions from facial expressions of mentally retarded
+                        children and generate a report of the emotion detected, which can be
+                        used by the psychotherapist for treatment purposes.</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4> Safe Streets </h4>
+                    <p>
+                        Built an automated helmet detection and license plate
+                        recognition to identify helmet defaulters using CV. <br>
+                        Identify vehicles that cross a specific threshold line after
+                        red light is displayed to find out red light jumpers using
+                        CV.<br>
+                        Performed data analysis on custom data using different parameters and a
+                        time series forecasting using ARIMA model for Helmet defaulters' violation
+                        count.</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4> What Makes a Song Popular? </h4>
+                    <p> Performed EDA on the Spotify dataset and performed algorithms like :<br>
+                        XGBoost,
+                        Linear Regression,
+                        Decision Trees,
+                        Random Forest Classifier and
+                        K-means
+                        to identify features of a song that makes it popular</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+
+        <div class="skill-icons">
+            <a><i class='bx bxl-python' ></i></a>
+            <a><i class='bx bx-math' ></i></a>
+            <a><i class='bx bxl-html5' ></i></a>
+            <a><i class='bx bxl-css3' ></i></a>
+            <a><i class='bx bxl-javascript' ></i></a>
+            <a><i class='bx bxl-react' ></i></a>
+            <a><i class='bx bxl-nodejs' ></i></a>
+            <a><i class='bx bxl-java' ></i></a>
+            <a><i class='bx bxl-spring-boot' ></i></a>
+            <a><i class='bx bxl-postgresql' ></i></a>
+            <a><i class='bx bxs-data' ></i></a>
+        </div>
+       
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="contact-form" action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" name="FullName" required>
+                    <input type="email" placeholder="Email" name="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone number" name="number" required>
+                    <input type="text" placeholder="Subject" name="Subject" required>
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+        </form>
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            <!-- <a href="#"></a>
+            <a href="#"></a> -->
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#">Projects</a>
+            </li>
+
+            <li>
+                <a href="#">About Me</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            @ Srinivasan Raghavan | All Rights reserved
+        </p>
+
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
